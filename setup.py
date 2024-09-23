@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="image_processing",
+    name="image_processing_vll",
     version="0.0.1",
     author="Vinicius Lima",
     author_email="viniciusleite.desenvolvedor@gmail.com",
@@ -16,6 +16,6 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/viniciusleitelima/image-processing-package",
     package=find_packages(),
-    install_requirements=requirements
+    install_requirements=requirements,
     python_requires=">=3.8"
 )        
